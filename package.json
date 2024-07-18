@@ -1,0 +1,25 @@
+{
+  "name": "typescript_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "start": "ts-node-dev --no-notify --respawn index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accentur/typescript_01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/accentur/typescript_01/issues"
+  },
+  "homepage": "https://github.com/accentur/typescript_01#readme",
+  "dependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.3"
+  }
+}
