@@ -56,8 +56,21 @@ const car1 = new Car('red', 'ferrari');
 
 // ---------------------------------------------------------------------------------------------------
 
+//Generics
+
+class hilder<T>{
+
+    value: T;
+}
 
 
+
+const valueWrapper = <T>(value: T): T[]{
+    
+    return [value];
+}
+
+valueWrapper<number>(10);
 
 
 
